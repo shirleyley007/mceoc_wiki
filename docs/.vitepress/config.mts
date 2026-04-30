@@ -1,11 +1,11 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: "My Project Wiki",
-  description: "My Project Documentation",
+  title: "MCEOC Wiki",
+  description: "MCEOC Documentation",
   themeConfig: {
     logo: '/logo.png',
-    siteTitle: 'My Project Wiki',
+    siteTitle: 'MCEOC Wiki',
     nav: [
       { text: 'Guide', link: '/articles/instructions/get-started' },
       {

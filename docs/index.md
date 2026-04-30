@@ -1,9 +1,9 @@
 ---
 layout: home
 hero:
-  name: "My Project"
-  text: "Documentation"
-  tagline: Your project description goes here
+  name: "MCEOC"
+  text: "Wiki"
+  tagline: MCEOC Documentation
   actions:
     - theme: brand
       text: Get Started
