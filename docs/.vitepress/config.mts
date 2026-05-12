@@ -7,12 +7,12 @@ export default defineConfig({
     logo: '/logo.png',
     siteTitle: 'MCEOC Wiki',
     nav: [
-      { text: 'Guide', link: '/articles/instructions/get-started' },
+      { text: 'Guide', link: '/articles/instructions/engineer-schedule-plans' },
       {
-        text: 'Ver 1.0.0',
+        text: 'Collaborations',
         items: [
-          { text: 'Release Notes', link: '/articles/references/release-notes' },
-          { text: 'FAQ', link: '/articles/references/faq' }
+          { text: 'Genie', link: '/articles/collaboration/genie' },
+          { text: 'SMEIntelligent Bot', link: '/articles/collaboration/smeintelligent-bot' }
         ]
       }
     ],

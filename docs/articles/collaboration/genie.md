@@ -4,7 +4,7 @@
 
 ### Q: How do I get started?
 
-A: Please refer to the [Get Started](/articles/instructions/get-started) page.
+A: Please refer to the [Get Started](/articles/instructions/engineer-schedule-plans) page.
 
 ### Q: Who can I contact for support?
 

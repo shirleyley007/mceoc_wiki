@@ -7,10 +7,10 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /articles/instructions/get-started
+      link: /articles/instructions/engineer-schedule-plans
     - theme: alt
       text: View Features
-      link: /articles/features/event-based-features
+      link: /articles/notifications/email-notification
 features:
   - title: Easy to Use
     details: Simple and intuitive interface for all team members.
