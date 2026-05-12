@@ -1,13 +1,25 @@
-# What is This Project
+# Engineer Schedule Plans
 
-This is a placeholder page. Replace this content with your project introduction.
+This page explains how engineers can view and modify their own schedules in MCEOC.
 
-## Overview
+## How to Change Your Schedule
 
-Describe your project here.
+Follow these steps to update your schedule:
 
-## Key Benefits
+### Step 1: Select Date Blocks
 
-- Benefit 1
-- Benefit 2
-- Benefit 3
+Click on the date block(s) you want to modify on the calendar. You can select multiple dates at once.
+
+### Step 2: Choose a Work Type
+
+In the popup dialog, select the desired work type from the available options (e.g., `AL`, `H(A)`, `H(M)`, `HH`, `PH`, `SL`, `WD`, `L`, `T`, etc.).
+
+### Step 3: Confirm
+
+Click the **Confirm** button to apply your schedule change.
+
+![Schedule Change Steps](/schedule-change-steps.png)
+
+::: warning Important
+After making schedule changes, remember to update your WFM schedule via [IA Assist](https://aka.ms/IA.Assist) or contact your pod TA.
+:::
