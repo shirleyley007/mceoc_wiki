@@ -16,7 +16,7 @@ Each engineer has a profile in MCEOC that stores personal and service-related in
 | **Role** | Your role in the team, e.g., `Engineer`. |
 | **Location** | Your work location, e.g., `Shanghai`. |
 | **Onboard Date** | The date you joined the team. |
-| **Phone** | Your contact phone number. <span style="color: red; font-weight: bold;">⚠ This field must be filled in accurately — it is used for on-call contact.</span> |
+| **Phone** | Your contact phone number. <span style="color: red; font-weight: bold;">⚠ This field must be filled in accurately — it is used for urgent contact.</span> |
 
 ### Azure Services
 
@@ -37,7 +37,10 @@ Use the checkboxes to select or deselect the services you support. You can also 
 ## How to Update Your Profile
 
 1. Open your Profile using either method:
-   - **From the calendar:** Click your name on the calendar to open the Profile panel on the right side.
+   - **From the Team View page:** Click your name to open the Profile panel on the right side.
+
+    ![Engineer Profile](/engineer-profile.png)
+
    - **From the Home page:** Navigate to **Home** from the left sidebar, find your profile card, then click the **Edit** button at the bottom.
 
    ![Navigate to Home](/nav-home.png)
@@ -46,8 +49,6 @@ Use the checkboxes to select or deselect the services you support. You can also 
 
 2. Edit the fields you want to update.
 3. Click **Save** to apply your changes, or **Cancel** to discard.
-
-![Engineer Profile](/engineer-profile.png)
 
 ::: tip
 Keep your **Azure Services** and **Rotation Services** up to date for the ease of resource locating. 
