@@ -19,41 +19,38 @@ export default defineConfig({
     sidebar: {
       '/articles/': [
         {
-          text: 'Instructions',
+          text: 'Engineer Features',
           collapsible: true,
           collapsed: false,
           items: [
-            { text: 'What is This Project', link: '/articles/instructions/what-is-this-project' },
-            { text: 'Get Started', link: '/articles/instructions/get-started' },
-            { text: 'Onboard Process', link: '/articles/instructions/onboard-process' },
-            { text: 'Commands and Examples', link: '/articles/instructions/commands' }
+            { text: 'Schedule Plans', link: '/articles/instructions/engineer-schedule-plans' },
+            { text: 'Profile', link: '/articles/instructions/engineer-profile' }
           ]
         },
         {
-          text: 'Features',
+          text: 'Management Features',
           collapsible: true,
           collapsed: false,
           items: [
-            { text: 'Event Based Features', link: '/articles/features/event-based-features' },
-            { text: 'Schedule Based Features', link: '/articles/features/schedule-based-features' }
+            { text: 'Team Management', link: '/articles/management/team-manage' },
+            { text: 'Statistics', link: '/articles/management/management-statistics' }
           ]
         },
         {
-          text: 'Management',
+          text: 'Notifications',
           collapsible: true,
           collapsed: false,
           items: [
-            { text: 'Team Management', link: '/articles/management/team-manage-commands' },
-            { text: 'Feature Management', link: '/articles/management/feature-manage-commands' }
+            { text: 'Email Notification', link: '/articles/notifications/email-notification' },
           ]
         },
         {
-          text: 'References',
+          text: 'Cross-Project Collaborations',
           collapsible: true,
           collapsed: false,
           items: [
-            { text: 'FAQ', link: '/articles/references/faq' },
-            { text: 'Release Notes', link: '/articles/references/release-notes' }
+            { text: 'Genie', link: '/articles/collaboration/genie' },
+            { text: 'SMEIntelligent Bot', link: '/articles/collaboration/smeintelligent-bot' }
           ]
         }
       ]

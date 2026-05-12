@@ -1,9 +1,9 @@
 ---
 layout: home
 hero:
-  name: "MCEOC"
+  name: "MCEOC (Mooncake Eyes-on-Calendar)"
   text: "Wiki"
-  tagline: MCEOC Documentation
+  tagline: Advanced calendar system meticulously crafted to optimize shift scheduling and resource management processes for Mooncake
   actions:
     - theme: brand
       text: Get Started
@@ -13,7 +13,7 @@ hero:
       link: /articles/features/event-based-features
 features:
   - title: Easy to Use
-    details: Simple setup and intuitive interface for all team members.
+    details: Simple and intuitive interface for all team members.
   - title: Powerful Features
     details: Rich set of features covering event-based and schedule-based workflows.
   - title: Team Management
