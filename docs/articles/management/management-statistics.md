@@ -1,15 +1,33 @@
-# Team Management
+# Statistics
 
-This is a placeholder page for team management documentation.
+## W Day Statistics (Workday Statistics)
 
-## Create a Team
+The **W Day Statistics** feature provides a quick overview of each engineer's expected workdays for the current month.
 
-Describe how to create a team.
+### How to Access
 
-## Add Members
+Click the **W Day Statistics** button on the left side of the Team View page.
 
-Describe how to add members to a team.
+![W Day Statistics Button](/wday-statistics-button.png)
 
-## Remove Members
+### What It Shows
 
-Describe how to remove members from a team.
+The panel displays:
+
+- **Expected W Days** — the standard number of workdays for the current month (shown at the top).
+- **Engineer list** — each engineer's name (alias) and their individual expected workday count.
+
+![W Day Statistics Panel](/wday-statistics.png)
+
+### Calculation Rules
+
+- The statistic counts only **actual working days** (work type with On Duty value).
+- It **excludes** benefits-related leave, including:
+  - Paid leave (Annual Leave, Sick Leave, etc.)
+  - Training days
+  - Public holidays
+- Engineers whose workday count **differs from the standard** (Expected W Days) will be **highlighted**, making it easy to identify schedule anomalies at a glance.
+
+::: tip
+Use this feature to quickly spot engineers who may have scheduling issues or need schedule adjustments for the month.
+:::
