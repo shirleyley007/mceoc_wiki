@@ -53,3 +53,49 @@ Use the checkboxes to select or deselect the services you support. You can also 
 ::: tip
 Keep your **Azure Services** and **Rotation Services** up to date for the ease of resource locating. 
 :::
+
+## Engineer Search
+
+The **Engineer Search** feature is located on the **Home** page (accessible from the left sidebar). It allows you to quickly find team members by searching various keywords.
+
+![Navigate to Home](/nav-home.png)
+
+### How to Use
+
+1. Navigate to the **Home** page from the left sidebar.
+2. Expand the **Engineer Search** panel.
+3. Type keywords in the search box — the system will automatically suggest matching results for **role**, **name**, **services**, and **pod**.
+4. If no results are automatically matched, continue typing and press **Enter** to perform the search.
+
+::: tip
+The more you input, the more accurate the matching results.
+:::
+
+### Search Keywords
+
+You can search by the following categories:
+
+| Category | Examples |
+|----------|----------|
+| **Role** | `Engineer`, `MGR`, `TA` |
+| **POD** | `Billing`, `DB`, `Mgr&TA`, `Mooncake`, `NET`, `NOAM`, `PaaS`, `SCIM`, `US`, `VM` |
+| **Services** | `Advisor`, `Alerts`, `Automation`, `Azure Arc enabled Kubernetes`, `Azure Container Instance`, `Azure Kubernetes Service`, `Virtual Machine`, etc. |
+| **Name** | Any engineer's name |
+
+### Search Results
+
+Search results are displayed as profile cards, each showing:
+
+- **Name** and avatar initials
+- **POD | Location | Role**
+- **Topic Owner** — the services/topics the engineer owns
+- **Rotation Services** — services supported for cross-pod rotation
+- **Hobby** — personal hobbies
+
+Each card also provides **Edit** and **View Details** buttons at the bottom.
+
+### Topic Owner Star Badge
+
+If you search for a service, engineers who are the **Topic Owner** of that service will be highlighted with a ⭐ **star icon** in the top-right corner of their profile card. This makes it easy to identify the subject matter expert for a given service.
+
+![Engineer Search](/engineer-search.png)
