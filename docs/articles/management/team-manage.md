@@ -1,3 +1,7 @@
+---
+outline: [2, 3]
+---
+
 # Team Management
 
 Team Management is a set of features designed for users with **TA** or **Manager** permissions, focusing on team operations and resource control.
@@ -113,8 +117,9 @@ The TagInfo interface controls how engineers are grouped into tabs on the **Team
 1. Select a **tag** from the dropdown (e.g., `NET`, `VM+SCIM`, `DB`, etc.).
 2. The **left panel (Member List)** shows engineers currently assigned to this tag.
 3. The **right panel (Engineer List)** shows all remaining engineers not in this tag.
-4. Use the **left arrow (‹)** to remove a selected engineer from the tag (move from left to right).
-5. Use the **right arrow (›)** to add a selected engineer to the tag (move from right to left).
+4. Use the **left arrow (‹)** to add a selected engineer to the tag (move from right to left).
+5. Use the **right arrow (›)** to remove a selected engineer from the tag (move from left to right).
+
 
 You can also create a **New** tag or **Remove** an existing tag using the buttons next to the dropdown.
 
