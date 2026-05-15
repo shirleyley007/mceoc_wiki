@@ -65,22 +65,7 @@ The **Engineer Search** feature is located on the **Home** page (accessible from
 1. Navigate to the **Home** page from the left sidebar.
 2. Expand the **Engineer Search** panel.
 3. Type keywords in the search box — the system will automatically suggest matching results for **role**, **name**, **services**, and **pod**.
-4. If no results are automatically matched, continue typing and press **Enter** to perform the search.
 
-::: tip
-The more you input, the more accurate the matching results.
-:::
-
-### Search Keywords
-
-You can search by the following categories:
-
-| Category | Examples |
-|----------|----------|
-| **Role** | `Engineer`, `MGR`, `TA` |
-| **POD** | `Billing`, `DB`, `Mgr&TA`, `Mooncake`, `NET`, `NOAM`, `PaaS`, `SCIM`, `US`, `VM` |
-| **Services** | `Advisor`, `Alerts`, `Automation`, `Azure Arc enabled Kubernetes`, `Azure Container Instance`, `Azure Kubernetes Service`, `Virtual Machine`, etc. |
-| **Name** | Any engineer's name |
 
 ### Search Results
 
