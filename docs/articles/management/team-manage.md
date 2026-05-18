@@ -27,6 +27,27 @@ The Lock feature allows TAs and Managers to restrict leave requests for specific
 Use Lock carefully — it prevents all engineers in the selected POD from making schedule changes on the locked date. Communicate with your team before locking.
 :::
 
+## WFM Table Download
+
+This feature allows TAs/Managers to download a monthly WFM (Workforce Management) schedule table as a CSV file, which can be sent to the WFM team for next month's schedule marking.
+
+### How to Access
+
+Click the **Settings** (gear icon) button in the top-right toolbar of the Team View page.
+
+![Page Settings Button](/page-settings-button.png)
+
+### How to Use
+
+1. In the **Page Settings** panel, find the **WFM Table** section.
+2. **Select Months** — choose the target month (e.g., `2026 May`).
+3. **Select Team** — choose the POD (e.g., `VM+SCIM`).
+4. Click **Generate** to download the CSV file to your local machine.
+
+![WFM Table Generate](/wfm-table-generate.png)
+
+The generated CSV file contains the team's schedule data for the selected month, ready to be forwarded to the WFM team.
+
 ## Manage Tab
 
 The **Manage** tab is accessible from the left sidebar and contains administrative tools for team operations.
