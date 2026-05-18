@@ -45,7 +45,7 @@ Navigate to: **Resource Center** → **Engineer Stats** → **FTE Learning Day S
 | Filter | Description |
 |--------|-------------|
 | **Year** | Select the year to view (e.g., `2026`). Click **Go** to apply. |
-| **Pod Filter** | Filter by POD (e.g., `DB`, `VM`, `NET`) or select `All` to view all PODs. |
+| **Pod Filter** | Filter by POD (e.g., `DB`, `VM+SCIM`, `NET`) or select `All` to view all PODs. |
 
 ### What It Shows
 
@@ -57,3 +57,35 @@ The table displays the following columns:
 | **Name** | The engineer's full name. |
 | **Pod** | The POD the engineer belongs to. |
 | **Learning Days** | The number of learning days used vs. the annual quota (e.g., `1.50 / 15`). |
+
+## Resource Bar
+
+The **Resource Bar** provides a real-time overview of today's resource availability organized by topic (Azure service).
+
+![Resource Bar Entry](/resource-bar-entry.png)
+
+### Calculation
+
+The availability percentage for each topic is calculated as:
+
+> **Availability % = (Engineers ready for this topic AND on duty today) / (Total engineers ready for this topic)**
+
+For example, if 5 engineers are ready for "Virtual Machine" and 3 of them are on duty today, the availability is `3 / 5 = 60%`.
+
+### Filters
+
+You can narrow down the results using the following filters:
+
+- **POD Name** — filter by a specific POD to view only its topics.
+- **Date** — select a specific date to view availability for that day.
+- **Service** — search directly by topic/service name in the service column.
+
+![Resource Bar Filters](/resource-bar-filter.png)
+
+![Resource Bar Table](/resource-bar-table.png)
+
+### Data Accuracy
+
+::: warning
+The accuracy of Resource Bar data depends directly on each engineer's **Readiness** data in their [Engineer Profile](/articles/instructions/engineer-profile). If engineers do not keep their Azure Services and Rotation Services up to date, the availability percentages may be inaccurate.
+:::
