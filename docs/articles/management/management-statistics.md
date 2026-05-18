@@ -21,13 +21,9 @@ The panel displays:
 
 ### Calculation Rules
 
-- The statistic counts only **actual working days** (work type with On Duty value).
-- It **excludes** benefits-related leave, including:
+- The statistic counts only **expected working days** (work type with On Duty value).
+- It **includes** benefits-related leave, including:
   - Paid leave (Annual Leave, Sick Leave, etc.)
   - Training days
   - Public holidays
 - Engineers whose workday count **differs from the standard** (Expected W Days) will be **highlighted**, making it easy to identify schedule anomalies at a glance.
-
-::: tip
-Use this feature to quickly spot engineers who may have scheduling issues or need schedule adjustments for the month.
-:::
