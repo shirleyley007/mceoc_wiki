@@ -2,12 +2,18 @@
 
 SME Intelligent Bot now supports **absence list today** and **absence list tomorrow** features with data fetched from MCEOC, which can serve as a quick insight of your team availability. Features are configured on team level (as pod in MC), once enabled, all your team members would receive absence lists at the time you configured.
 
+![Absence List Sample](/smebot-absence-list.png)
+
 ## Install the Bot
 
 Follow the guidance here: https://white-bush-039d1970f.5.azurestaticapps.net/articles/instructions/onboard-process.html 
 
-::: info For Engineers
+::: warning For Engineers
 Engineers only need to **download and install the Bot** to receive absence list messages. No additional configuration is required. If your pod has not yet enabled this feature, please ask your TA/TM to follow the steps below to enable it.
+:::
+
+::: tip For TA/TM
+Please continue reading the sections below for detailed steps on how to enable and configure the absence list feature for your pod.
 :::
 
 ## Procedure to Enable Features
@@ -42,8 +48,6 @@ Engineers only need to **download and install the Bot** to receive absence list 
 | **Cron Job Time Zone** | `UTC+8:00` | The timezone for Cron Job time. |
 
 Hit "Submit", and all members in your selected team should receive "absence list today" at 07:15 every Monday to Friday.
-
-![Absence List Sample](/smebot-absence-list.png)
 
 ### Configuring "Absence List Tomorrow"
 
@@ -90,3 +94,5 @@ For removing groupChat/channel, please replace `<alias>` with `<groupChat_channe
 - **Description:** Remove user(s) from your team.
 - **Command:** `remove <alias1>, <alias2> from my team`
 - **Example:** `remove lucasfanbing1, lucasfanbing2 from my team`
+
+For more configuration options regarding SME Bot, please view SME Bot wiki: https://white-bush-039d1970f.5.azurestaticapps.net/articles/management/team-manage-commands.html 
