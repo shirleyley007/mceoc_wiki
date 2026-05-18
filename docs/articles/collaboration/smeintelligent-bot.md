@@ -18,11 +18,11 @@ Engineers only need to **download and install the Bot** to receive absence list 
 
 ## Configure Feature
 
-### JSON Config
+### Sample JSON Config
 
 ```json
 {
-  "pods": ["VM", "VM"],
+  "pods": ["DB", "VM"],
   "custom_date_type": {
     "all_day_absent": ["FC", "E", "ML", "Re", "HH",
       "morning_absent":
@@ -36,26 +36,19 @@ Engineers only need to **download and install the Bot** to receive absence list 
 
 | Field | Value | Note |
 |-------|-------|------|
-| **pods** | `["VM", "VM"]` | Put in your pod name or any pod you want to receive your member's absence lists. Pod names: `VM`, `SCIM`, `DB`, `NET`, `PaaS` |
+| **pods** | `["DB", "VM"]` | Put in your pod name or any pod you want to receive your member's absence lists. Pod names: `VM`, `SCIM`, `DB`, `NET`, `PaaS` |
 | **custom_date_type** | *(see above)* | DO NOT change custom date types. |
 | **Cron Job Expression** | `0 15 7 ? * 2-6` | Stands for absence list sent time. The example means executing absence list job at 07:15 from Monday to Friday every week. |
 | **Cron Job Time Zone** | `UTC+8:00` | The timezone for Cron Job time. |
 
 Hit "Submit", and all members in your selected team should receive "absence list today" at 07:15 every Monday to Friday.
 
+![Absence List Sample](/smebot-absence-list.png)
+
 ### Configuring "Absence List Tomorrow"
 
-To configure absence list **tomorrow**, follow the same procedure as above. Note that "absence list today" and "absence list tomorrow" are **2 separate features**. If you need to configure absence list tomorrow, select feature "**Mooncake Eyes On Calendar Tomorrow**".
+To configure **absence list tomorrow**, follow the same procedure as above. Note that "absence list today" and "absence list tomorrow" are **2 separate features**. If you need to configure absence list tomorrow, select feature "**Mooncake Eyes On Calendar Tomorrow**".
 
-## Sample Notifications
-
-The Bot sends messages in the team chat showing:
-
-- **Pod** name
-- **All day Leave** — engineers on full-day leave
-- **Morning Leave** — engineers on morning leave
-- **Afternoon Leave** — engineers on afternoon leave
-- **Training/Learning** — engineers on training or learning day
 
 ## Team Management Commands
 
@@ -97,5 +90,3 @@ For removing groupChat/channel, please replace `<alias>` with `<groupChat_channe
 - **Description:** Remove user(s) from your team.
 - **Command:** `remove <alias1>, <alias2> from my team`
 - **Example:** `remove lucasfanbing1, lucasfanbing2 from my team`
-
-![SME Intelligent Bot Guide](/smeintelligent-bot-guide.png)
