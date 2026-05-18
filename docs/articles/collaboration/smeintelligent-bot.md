@@ -4,58 +4,11 @@ SME Intelligent Bot now supports **absence list today** and **absence list tomor
 
 ## Install the Bot
 
-1. Download the bot [zip file here](https://microsoftapc-my.sharepoint.com/:u:/g/personal/lucashuang_microsoft_com/Eamgwb5XPdtKlGphUMLWhMUB81CydBkeHqlsv17OUUxRHg?e=bWvpjO) (updated at 2024-12-17)
+Follow the guidance here: https://white-bush-039d1970f.5.azurestaticapps.net/articles/instructions/onboard-process.html 
 
-2. Install the Zip file to Teams:
-   - Open Microsoft Teams → click **Apps** → click **Manage your apps** → click **Upload an app** → select **Upload a custom app** → choose the downloaded zip file.
-
-3. Choose the installation type:
-   - Click **Add** to onboard as personal account
-   - Click **Add to a chat** for groupChat onboarding
-   - Click **Add to a team** for channel onboarding
-
-## Team Creation
-
-::: tip
-If you are new to Bot and haven't got a Team in Bot yet, you need to create a Team in Bot first. Skip this section if you already know your Team name.
+::: info For Engineers
+Engineers only need to **download and install the Bot** to receive absence list messages. No additional configuration is required. If your pod has not yet enabled this feature, please ask your TA/TM to follow the steps below to enable it.
 :::
-
-1. Make sure you are a **Technical Advisor** or **Manager** — the command will verify your job title and currently only those roles can create a Team in Bot.
-2. After installing the Bot, use command: `create team with name <Your-Team-Name>`
-
-::: warning
-The Team name is **case-sensitive**. You will be automatically linked to the Team with `TA` role.
-:::
-
-## Add Chat Group to Your Team
-
-This refers to `groupChat` user account. After installing the bot to the chat group, you can link this chat group to a Team.
-
-In the chat group, use command: `@SMEIntelligentBot register to team: <your-team-name>`
-
-**Example:** `@SMEIntelligentBot register to team: Lucas Test Team`
-
-::: tip
-- This registration only targets the chat group itself, regardless of how many people are inside.
-- After onboarded, the default role for the chat group account is `TA`, as a group chat is designed to receive all Team related information.
-- Each team can only have 1 chat group.
-:::
-
-## Add Channel to Your Team
-
-This refers to `channel` user account. After installing the bot to a channel, you can link this channel to a Team.
-
-In the channel, use command: `@SMEIntelligentBot register to team: <your-team-name>`
-
-**Example:** `@SMEIntelligentBot register to team: Lucas Test Team`
-
-::: tip
-- This registration only targets the channel itself, regardless of how many people are inside.
-- After onboarded, the default role for the channel account is `TA`, as a channel is designed to receive all Team related information.
-- Each team can only have 1 channel.
-:::
-
----
 
 ## Procedure to Enable Features
 
