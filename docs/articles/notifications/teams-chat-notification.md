@@ -16,10 +16,4 @@ MCEOC sends automated reminders via **Microsoft Teams** to ensure on-call phone 
 - **Group chat:** Messages are posted in the **Mooncake SLA Monitor** group chat, with the relevant on-call engineers @mentioned.
 - **1:1 chat:** At the same time, the Workflows account also sends a private 1:1 message directly to each @mentioned engineer.
 
-### Message Content
-
-The reminder asks engineers to:
-1. Coordinate with their **pod TA/TM** to set up call forwarding to the next on-call engineer's cell phone.
-2. Confirm completion by giving a 👍 reaction to the message.
-
 ![Teams On-Call Reminder](/teams-oncall-reminder.png)
