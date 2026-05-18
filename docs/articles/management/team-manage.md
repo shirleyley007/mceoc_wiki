@@ -29,7 +29,7 @@ Use Lock carefully — it prevents all engineers in the selected POD from making
 
 ## WFM Table Download
 
-This feature allows TAs/Managers to download a monthly WFM (Workforce Management) schedule table as a CSV file, which can be sent to the WFM team for next month's schedule marking.
+This feature allows TAs/Managers to download a monthly WFM schedule table as a CSV file, which can be sent to the WFM team for next month's schedule marking.
 
 ### How to Access
 
@@ -46,7 +46,6 @@ Click the **Settings** (gear icon) button in the top-right toolbar of the Team V
 
 ![WFM Table Generate](/wfm-table-generate.png)
 
-The generated CSV file contains the team's schedule data for the selected month, ready to be forwarded to the WFM team.
 
 ## Manage Tab
 

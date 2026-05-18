@@ -8,7 +8,7 @@ Follow these steps to update your schedule:
 
 ### Step 1: Select Date Blocks
 
-Click on the date block(s) you want to modify on the calendar. You can select multiple dates at once.
+Click on the date block(s) you want to modify on the calendar. You can select multiple dates at once. Note that plesae negotiate with your TA/TM first for long leave requests. 
 
 ### Step 2: Choose a Work Type
 
