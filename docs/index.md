@@ -3,7 +3,7 @@ layout: home
 hero:
   name: "MCEOC (Mooncake Eyes-on-Calendar)"
   text: "Wiki"
-  tagline: Advanced calendar system meticulously crafted to optimize shift scheduling and resource management processes for Mooncake
+  tagline: Advanced calendar system meticulously crafted to optimize shift scheduling and resource management processes for Mooncake, please visit aka.ms/mceoc
   actions:
     - theme: brand
       text: Get Started
