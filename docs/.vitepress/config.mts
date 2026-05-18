@@ -42,6 +42,7 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: 'Email Notification', link: '/articles/notifications/email-notification' },
+            { text: 'Teams Chat Notification', link: '/articles/notifications/teams-chat-notification' },
           ]
         },
         {

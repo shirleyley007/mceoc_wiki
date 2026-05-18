@@ -1,8 +1,7 @@
 # Email Notifications
 
-All notification emails are sent from **Mooncake People Harbor** (`mcph@microsoft.com`).
-
 MCEOC sends automated email notifications to engineers to help them prepare for upcoming schedule events. Below are the notification types currently supported.
+All notification emails are sent from **Mooncake People Harbor** (`mcph@microsoft.com`).
 
 ## Learning Day Reminder
 
