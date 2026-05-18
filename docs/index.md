@@ -19,3 +19,7 @@ features:
   - title: Team Management
     details: Flexible team and role management for your organization.
 ---
+
+## Feature Requests
+
+For feature requests, please contact **MCEOC V-Team** by email: [mceoc@microsoft.com](mailto:mceoc@microsoft.com), or fill in the [Feature Request Form](https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRzJSXu3e68RLsmUhgZ59SwBUOVBSNjU3UVEwN1VHQTU4SzBVT1BWM05RTy4u).
