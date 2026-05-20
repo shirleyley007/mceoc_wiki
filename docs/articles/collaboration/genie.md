@@ -1,11 +1,6 @@
 # Genie
 
-Genie is a Teams bot that integrates with MCEOC data, allowing you to quickly query **special shift members** such as today's on-call engineer or afternoon shift (AS) engineer.
-
-## What You Can Query
-
-- **On-Call** — find out who is on-call for a specific pod today (Primary / Standby)
-- **Afternoon Shift (AS)** — find out who is on AS for a specific pod today
+Genie is a Teams bot which integrates with MCEOC data, allowing you to quickly query **special shift members** such as today's on-call engineer or afternoon shift (AS) engineer.
 
 ### Example Queries
 
