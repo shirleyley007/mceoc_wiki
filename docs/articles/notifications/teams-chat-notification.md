@@ -1,8 +1,8 @@
 # Teams Chat Notification
 
-MCEOC sends automated reminders via **Microsoft Teams** to ensure on-call phone call forwarding is correctly configured each week. Messages are sent by the **Workflows** account.
+MCEOC sends automated reminders via **Microsoft Teams** to ensure weekend on-call phone call forwarding is correctly configured each week. Messages are sent by the **Workflows** account.
 
-## On-Call Phone Forwarding Reminder
+## Weekend On-Call Phone Forwarding Reminder
 
 ### Schedule
 
@@ -17,3 +17,5 @@ MCEOC sends automated reminders via **Microsoft Teams** to ensure on-call phone 
 - **1:1 chat:** At the same time, the Workflows account also sends a private 1:1 message directly to each @mentioned engineer.
 
 ![Teams On-Call Reminder](/teams-oncall-reminder.png)
+
+Members received or being mentioned should **react to** 👍 this reminder message. 
