@@ -49,6 +49,7 @@ export default defineConfig({
           collapsible: true,
           collapsed: false,
           items: [
+            { text: 'Genie', link: '/articles/collaboration/genie' },
             { text: 'SMEIntelligent Bot', link: '/articles/collaboration/smeintelligent-bot' }
           ]
         }
