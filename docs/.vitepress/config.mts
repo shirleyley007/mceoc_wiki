@@ -32,7 +32,8 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: 'Team Management', link: '/articles/management/team-manage' },
-            { text: 'Statistics', link: '/articles/management/management-statistics' }
+            { text: 'Statistics', link: '/articles/management/management-statistics' },
+            { text: 'Key Events', link: '/articles/management/key-events' }
           ]
         },
         {
