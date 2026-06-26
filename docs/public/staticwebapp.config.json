@@ -1,0 +1,12 @@
+{
+  "networking": {
+    "allowedIpRanges": [
+      "128.94.6.0/24",
+      "128.94.15.0/24",
+      "167.220.232.0/23",
+      "167.220.254.0/23",
+      "AzureCloud.eastasia",
+      "AzureCloud.southeastasia"
+    ]
+  }
+}
