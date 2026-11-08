@@ -18,12 +18,13 @@ export default defineConfig({
     sidebar: {
       '/articles/': [
         {
-          text: 'Engineer Features',
+          text: 'Basic Features',
           collapsible: true,
           collapsed: false,
           items: [
             { text: 'Schedule Plans', link: '/articles/instructions/engineer-schedule-plans' },
-            { text: 'Profile', link: '/articles/instructions/engineer-profile' }
+            { text: 'Profile', link: '/articles/instructions/engineer-profile' },
+            { text: 'Virtual Team', link: '/articles/instructions/virtual-team' }
           ]
         },
         {
